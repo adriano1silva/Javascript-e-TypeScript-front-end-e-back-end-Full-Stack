@@ -69,7 +69,7 @@ function salvarTarefas() {
 }
 
 function adicionaTarefasSalvas() {
-    const listaTarefa = localStorage.getItem('listaDeTarefas')
-    const listaDeTarefas = JSON.parse(listaTarefa)
+    const listaTarefa = localStorage.getItem('listaDeTarefas');
+    const listaDeTarefas = JSON.parse(listaTarefa);
 }
-adicionaTarefasSalvas()
+adicionaTarefasSalvas();
