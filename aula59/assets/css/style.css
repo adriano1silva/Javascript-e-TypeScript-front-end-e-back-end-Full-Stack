@@ -89,7 +89,7 @@ table {
   width: 100%;
   height: 50px;
   font-size: 1em;
-  border: nome;
+  border: none;
   background: #dfdfdf;
   cursor: pointer;
 }

@@ -4,6 +4,7 @@ function Calculadora () {
     this.inicia = () => {
         this.capturaCliques();
         this.capturaEnter();
+        this.backSpace();
     };
     
     this.capturaEnter = () => {
@@ -43,7 +44,7 @@ function Calculadora () {
     this.realizaConta = () => {
         try {
             const conta = eval(this.display.value);
-            if(!conta){
+            if(conta === undefined || conta === null){
                 alert('Conta Invalida')
                 return;
             }
